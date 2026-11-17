@@ -14,5 +14,5 @@ Note: myfile.c will be included but can be ignored
 
  2. make
  
- 3. ./signal_segfault, ./signal_handler, ./signal_sigaction, ./recv_signal, ./send_signal
+ 3. ./signal_segfault, ./signal_handler, ./signal_sigaction, ./recv_signal, ./send_signal, ./signal_alarm
 

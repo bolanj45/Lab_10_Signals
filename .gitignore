@@ -58,3 +58,4 @@ send_signal
 signal_handler
 signal_segfault
 signal_sigaction
+signal_alarm
