@@ -1,16 +1,11 @@
 /**
  * @file signal_segfault.c
- * @brief Program that dereferences a null pointer causing a segmentation fault
- * date: 11/15/0226
- * compile: gcc signal_segfault.c -o signal_segfault
+ * @brief program that assigns a the SIGALRM signal to a signal handler and sends an alarm signal after 5 seconds
+ *  prompting the handler which prints a message "signal was recieved"
+ * Date: 11/16/2026
+ * Author: Julian Bolan
+ * Compile: gcc signal_alarm.c -o signal_alarm
  */
-
-/**
- * Modified by: Julian Bolan
- * 
- * Brief summary of modifications: add int sig so program would compile
- */
-
 
 #include <stdio.h>
 #include <unistd.h> 
